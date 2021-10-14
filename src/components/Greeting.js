@@ -13,11 +13,11 @@ export default function Greeting() {
                     <Row>
                         <Col md={7}>
                             <Card.Text className="text-align-left">
-                            
+                                <p></p>
                             </Card.Text>
                         </Col>
                         <Col md={5}>
-                            <img src={process.env.PUBLIC_URL + "/images/kyleNZ.png"} alt="Me in Hobbiton" style={{ maxWidth : '100%' }}></img>
+                            <img src={process.env.PUBLIC_URL + "/images/kyleNZ.png"} title="Me in Hobbiton" alt="Me in Hobbiton" style={{ maxWidth : '100%' }}></img>
                         </Col>
                     </Row>
                 </Card.Body>

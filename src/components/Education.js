@@ -10,11 +10,10 @@ export default function Education() {
             <Row style={{ paddingBottom : '30px', borderBottom : '1px solid #78d68b' }}>
                 <h1 style={{ paddingTop : '10px', borderTop : '2px solid #78d68b'}}>Education</h1>
                 
-                <Col md={1}>
+                <Col md={1} style={{ paddingTop: '10px' }}>
                     <img src={process.env.PUBLIC_URL + '/images/cal-golden-bears.svg'} alt="Go Bears!" style={{ maxWidth : '100%' }}></img>
                 </Col>
-                <Col md={6} className="text-align-left">
-                    <p>&nbsp;</p>
+                <Col md={6} className="text-align-left" style={{ paddingTop : '35px'}}>
                     <h4>University of California, Berkeley</h4>
                 </Col>
                 <Col className="text-align-right" style={{ paddingTop : '20px' }} md={5}>

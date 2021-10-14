@@ -63,11 +63,11 @@
 
 .blink {
   border-bottom: 2px solid #78d68b;
-  animation: blink 10s infinite;
+  animation: blink 12s infinite;
 }
 
 .blink:hover {
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 
 @keyframes blink {
@@ -85,7 +85,7 @@
 
 
 .logo-card {
-  width: 7rem;
+  width: 8rem;
   height: 7rem;
   margin-left: auto;
   margin-right: auto;
@@ -114,5 +114,19 @@ li:last-child {
   margin-bottom: 0px;
 }
 
+.flex-container {
+  display: flex;
+}
 
+.fade-in {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1.5s ease-in;
+  will-change: opacity, visibility;
+}
+
+.fade-in.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
 
