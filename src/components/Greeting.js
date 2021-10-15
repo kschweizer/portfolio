@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 export default function Greeting() {
     return (
         <div id="about" className="Greeting">
-            <div className="container">
+            <div className="container section-header">
                 <Card bg="transparent">
                 <Card.Header as="h1">Who is Kyle Schweizer?</Card.Header>
                 <Card.Body>

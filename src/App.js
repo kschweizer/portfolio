@@ -1,9 +1,11 @@
 import './App.css';
-import React, { useEffect, useRef, useState, useReducer } from 'react';
+import React, { useEffect, useState } from 'react';
 import MyNavbar from './components/MyNavbar';
 import Greeting from './components/Greeting';
 import Projects from './components/Projects';
 import Education from './components/Education';
+import Welcome from './components/Welcome';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -33,15 +35,12 @@ function App() {
   }, [greetVisible, projVisible, eduVisible]);
 
   
-
-  
-
-  
-
-  
   return (
     <div className="App">
       <MyNavbar />
+      <Welcome />
+
+      {/* apply fade-in.is-visible once elements are scrolled past */}
       <div id="greet" className={`fade-in ${ greetVisible ? 'is-visible' : ''}`}>
         <Greeting />
       </div>
@@ -51,6 +50,9 @@ function App() {
       <div id="edu" className={`fade-in ${ eduVisible ? 'is-visible' : ''}`}>
         <Education />
       </div>
+      {/* end of fade-in componenets */}
+
+      <Contact />
     </div>
   );
 }

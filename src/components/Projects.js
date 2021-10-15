@@ -22,7 +22,7 @@ export default function Projects() {
     }
     return (
         <Container id="projects" style={{ paddingTop : '75px', minHeight : '900px' }}>
-            <h1 style={{ color : 'white', paddingTop : '10px', borderTop : '2px solid #78d68b', marginBottom : '25px' }}>Project Reflections</h1>
+            <h1 style={{ color : 'white', paddingTop : '10px', borderTop : '2px solid #78d68b', marginBottom : '80px' }}>Project Reflections</h1>
             <Container style={{ borderLeft : '2px solid #276fbf'}}>
                 <Accordion>
                 <Card bg="transparent" text="white">
