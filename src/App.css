@@ -80,6 +80,10 @@
   margin-bottom: 150px;
 }
 
+/********************/
+/* PROJECTS SECTION */
+/********************/
+
 .projects {
   min-height: 600px;
 }
@@ -87,6 +91,18 @@
 .project-title {
   color: rgb(255, 255, 231);
   text-align: left;
+}
+
+.border1 {
+  border-left: 2px solid #276fbf;
+}
+
+.border2 {
+  border-left: 2px solid #a31621;
+}
+
+.border3 {
+  border-left: 2px solid #78d68b;
 }
 
 .text-align-left {
@@ -180,3 +196,12 @@ li:last-child {
   border-top: 2px solid #78d68b;
 }
 
+
+.accordion-header-dark > .accordion-button {
+  background-color: #212529;
+  color: white;
+}
+
+.accordion-header-dark > .accordion-button::after {
+  background-image: url('./icons/accordion-toggle.svg');
+}
