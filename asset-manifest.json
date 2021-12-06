@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9a7bbe90.chunk.css",
-    "main.js": "/portfolio/static/js/main.59f1b400.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.59f1b400.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bc8f0ccd.chunk.css",
+    "main.js": "/portfolio/static/js/main.e40889ef.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e40889ef.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0c31cc74.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0c31cc74.js.map",
     "static/js/2.6e92b8e8.chunk.js": "/portfolio/static/js/2.6e92b8e8.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.5ad2d3b7.chunk.js": "/portfolio/static/js/3.5ad2d3b7.chunk.js",
     "static/js/3.5ad2d3b7.chunk.js.map": "/portfolio/static/js/3.5ad2d3b7.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.9a7bbe90.chunk.css.map": "/portfolio/static/css/main.9a7bbe90.chunk.css.map",
+    "static/css/main.bc8f0ccd.chunk.css.map": "/portfolio/static/css/main.bc8f0ccd.chunk.css.map",
     "static/js/2.6e92b8e8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6e92b8e8.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio/static/media/accordion-toggle.c44774f9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0c31cc74.js",
     "static/js/2.6e92b8e8.chunk.js",
-    "static/css/main.9a7bbe90.chunk.css",
-    "static/js/main.59f1b400.chunk.js"
+    "static/css/main.bc8f0ccd.chunk.css",
+    "static/js/main.e40889ef.chunk.js"
   ]
 }
