@@ -30,6 +30,7 @@ function App() {
         setEduVisible(true);
       }
     };
+    onScroll();
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
   }, [greetVisible, projVisible, eduVisible]);
@@ -37,7 +38,7 @@ function App() {
   
   return (
     <div className="App">
-      <MyNavbar />
+      <MyNavbar /> 
       <Welcome />
 
       {/* apply fade-in.is-visible once elements are scrolled past */}

@@ -10,7 +10,7 @@ export default function Projects() {
     const width = window.innerWidth;
     return (
         <Container id="projects" style={{ paddingTop : '75px', minHeight : '900px' }}>
-            <h1 style={{ color : 'white', paddingTop : '10px', borderTop : '2px solid #78d68b', marginBottom : '80px' }}>Project Reflections</h1>
+            <h1 style={{ color : 'white', paddingTop : '10px', borderTop : '2px solid #78d68b', marginBottom : '80px' }}>Projects</h1>
             <Accordion bsPrefix="accordion">
             {/**************************   
             *** FRESNO FIELD ARCHERS ***
@@ -23,12 +23,12 @@ export default function Projects() {
                             <Card.Header>
                                 <Row> 
                                     <Col className="flex-container" md={6}>
-                                        <img src={process.env.PUBLIC_URL + '/logos/ffa.svg'} alt="ffa logo" style={{ width : '35px', marginRight : '15px' }}/>
-                                        <h5 className="text-align-left" style={{ paddingTop : '15px' }}><a className="App-link" href="https://fresnofieldarchers.com" target="_blank" rel="noreferrer">Website</a></h5>
+                                        <img src={process.env.PUBLIC_URL + '/logos/github-icon.svg'} alt="Github icon" style={{ width : '35px', marginRight : '15px' }}/>
+                                        <h5 className="text-align-left" style={{ paddingTop : '15px' }}><a className="App-link" href="https://github.io/kschweizer/fresnofieldarchers" target="_blank" rel="noreferrer">Github</a></h5>
                                     </Col>
                                     <Col className="flex-container" md={6}>
-                                        <img src={process.env.PUBLIC_URL + '/logos/github-icon.svg'} alt="Github icon" style={{ width : '35px', marginLeft : 'auto' }}/>
-                                        <h5 style={{ marginLeft : '15px', paddingTop : '15px' }}><a className="App-link" href="https://github.com/kschweizer/fresnofieldarchers" target="_blank" rel="noreferrer">Github</a></h5>
+                                        <img src={process.env.PUBLIC_URL + '/logos/ffa.svg'} alt="ffa logo" style={{ width : '35px', marginLeft : 'auto' }}/>
+                                        <h5 style={{ marginLeft : '15px', paddingTop : '15px' }}><a className="App-link" href="https://fresnofieldarchers.com" target="_blank" rel="noreferrer">Website</a></h5>
                                     </Col>
                                 </Row>
                             </Card.Header>
@@ -101,7 +101,16 @@ export default function Projects() {
                                 </Row>
                             </Card.Body>
                             <Card.Body>
-                                <p className="text-align-left"> Freelance project for the Fresno Field Archers, an archery club based in the lower foothills of Fresno County. 
+                                <p className="text-align-left project-text"> 
+                                    Freelance project for the Fresno Field Archers, an archery club based in the lower foothills of Fresno County. 
+                                    <br></br>
+                                    <br></br>
+                                    This was my first experience with a solo full-stack project, and my first fully-deployed project using both React.js and the Django server framework. This project was a 
+                                    great opportunity for me to gain more experience working with a relational database management system (PostgreSQL), creating database object models, 
+                                    and designing an API that handles reading and writing data in both my database and an AWS S3 bucket. I also got exposure to areas that were quite new to me, such as state management in React, deploying 
+                                    an Nginx server, and handling domain and TLS setup. I plan to continue supporting this project with future updates at the request of the club, but I'm proud of 
+                                    the foundation that has been laid so far.
+                                   
                                 </p>
                             </Card.Body>
                         </Card>
@@ -120,10 +129,9 @@ export default function Projects() {
                         <Card bg="transparent" text="white">
                             <Card.Header>
                                 <Row> 
-                                    <Col md={6}></Col>
                                     <Col className="flex-container" md={6}>
-                                        <img src={process.env.PUBLIC_URL + '/logos/github-icon.svg'} alt="Github icon" style={{ width : '35px', marginLeft : 'auto' }}></img>
-                                        <h5 style={{ marginLeft : '15px', paddingTop : '15px' }}><a className="App-link" href="https://github.com/EricLui-409/SellFast-at-Cal" target="_blank" rel="noreferrer">Github</a></h5>
+                                        <img src={process.env.PUBLIC_URL + '/logos/github-icon.svg'} alt="Github icon" style={{ width : '35px', marginRight : '15px' }}></img>
+                                        <h5 style={{ marginRight : 'auto', paddingTop : '15px' }}><a className="App-link" href="https://github.com/EricLui-409/SellFast-at-Cal" target="_blank" rel="noreferrer">Github</a></h5>
                                     </Col>
                                 </Row>
                             </Card.Header>
@@ -177,7 +185,7 @@ export default function Projects() {
                                 </Row>
                             </Card.Body>
                             <Card.Body >
-                                <p className="text-align-left" style={{ marginBottom : '75px' }}> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project for Software Engineering (CS169), Fall 2019. The goals of the course were to teach
+                                <p className="text-align-left project-text" style={{ marginBottom : '75px' }}> Project for Software Engineering (CS169), Fall 2019. The goals of the course were to teach
                                 effective methodologies in software development, such as test-driven development and Agile practices. This was my first experience with creating a full-stack application using Ruby on Rails and HTML + CSS + Bootstrap. 
                                     While the application is no longer available to be viewed online, you can watch a video of the final application demo 
                                     by clicking on the button below.
@@ -200,11 +208,9 @@ export default function Projects() {
                         <Card bg="transparent" text="white">
                             <Card.Header>
                                 <Row> 
-                                    <Col md={6}>
-                                    </Col>
                                     <Col className="flex-container" md={6}>
-                                        <img src={process.env.PUBLIC_URL + '/logos/github-icon.svg'} alt="Github icon" style={{ width : '35px', marginLeft : 'auto' }}></img>
-                                        <h5 style={{ marginLeft : '15px', paddingTop : '15px' }}><a className="App-link" href="https://github.com/kschweizer/RDBMS" target="_blank" rel="noreferrer">Github</a></h5>
+                                        <img src={process.env.PUBLIC_URL + '/logos/github-icon.svg'} alt="Github icon" style={{ width : '35px', marginRight : '15px' }}></img>
+                                        <h5 style={{ marginRight : 'auto', paddingTop : '15px' }}><a className="App-link" href="https://github.com/kschweizer/RDBMS" target="_blank" rel="noreferrer">Github</a></h5>
                                     </Col>
                                 </Row>
                             </Card.Header>
@@ -221,7 +227,7 @@ export default function Projects() {
                                 </Row>
                             </Card.Body>
                             <Card.Body>
-                                <p>
+                                <p className="text-align-left project-text">
                                 Project for Data Structures (CS61B), Spring 2017. The task was to build a relational database management system (RDBMS) that uses a domain specific language (DSL) similar to that of
                                 SQL. The project was carried out in teams of two, except for the initial planning phase, where were encouraged to work with another team to draft a design document that 
                                 would serve as a rubric for each team's individual implementation. 
@@ -242,11 +248,9 @@ export default function Projects() {
                         <Card bg="transparent" text="white">
                             <Card.Header>
                                 <Row> 
-                                    <Col md={6}>
-                                    </Col>
                                     <Col className="flex-container" md={6}>
-                                        <img src={process.env.PUBLIC_URL + '/logos/github-icon.svg'} alt="Github icon" style={{ width : '35px', marginLeft : 'auto' }}></img>
-                                        <h5 style={{ marginLeft : '15px', paddingTop : '15px' }}><a className="App-link" href="https://github.com/kschweizer/Graph-Conquerer" target="_blank" rel="noreferrer">Github</a></h5>
+                                        <img src={process.env.PUBLIC_URL + '/logos/github-icon.svg'} alt="Github icon" style={{ width : '35px', marginRight : '15px' }}></img>
+                                        <h5 style={{ marginRight : 'auto', paddingTop : '15px' }}><a className="App-link" href="https://github.com/kschweizer/Graph-Conquerer" target="_blank" rel="noreferrer">Github</a></h5>
                                     </Col>
                                 </Row>
                             </Card.Header>
@@ -263,7 +267,7 @@ export default function Projects() {
                                 </Row>
                             </Card.Body>
                             <Card.Body>
-                                <p>Project for Algorithms (CS170), Spring 2018. The goal of this project was to design an algorithm that finds a reasonable solution to an NP-Hard graph-traversal problem. I worked with one other student 
+                                <p className="text-align-left project-text">Project for Algorithms (CS170), Spring 2018. The goal of this project was to design an algorithm that finds a reasonable solution to an NP-Hard graph-traversal problem. I worked with one other student 
                                     to plan and develop the solver. The solution that we developed utilized a probabilistic technique for finding global optimums known as simulated annealing. You can read more about the 
                                     problem as well as view the solver code in the provided Github link.
                                 </p>
@@ -294,7 +298,7 @@ export default function Projects() {
                                 </Row>
                             </Card.Body>
                             <Card.Body>
-                                <p>Project for Machine Structures (CS61C), Fall 2017. The task for this project was to implement a 32-bit two-cycle processor using Logisim, an educational tool for designing logic circuits. Although I didn't have to write a single 
+                                <p className="text-align-left project-text">Project for Machine Structures (CS61C), Fall 2017. The task for this project was to implement a 32-bit two-cycle processor using Logisim, an educational tool for designing logic circuits. Although I didn't have to write a single 
                                     line of code, it was quite a lot of effort to replicate a CPU with only the basic circuit components provided by Logisim. I've included a screenshot of my CPU design.
                                 </p>
                                 <img src={process.env.PUBLIC_URL + '/images/CPU.png'} alt="CPU" style={{ width : '100%' }}/>

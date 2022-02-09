@@ -8,7 +8,7 @@ export default function Greeting() {
         <div id="about" className="Greeting">
             <div className="container section-header">
                 <Card bg="transparent">
-                <Card.Header as="h1">Who am I?</Card.Header>
+                <Card.Header as="h1">About Me</Card.Header>
                 <Card.Body>
                     <Row>
                         <Col md={7}>
@@ -18,14 +18,14 @@ export default function Greeting() {
                                     <br></br>
                                     <br></br>
                                     I graduated from UC Berkeley in 2020 with a bachelor's in computer science. It can be difficult to pin 
-                                    down my interests, so the most granular detail I'll say here is that I'm interested in developing full stack user applications. I enjoy designing and learning about
-                                    API's, data structures, databases, and recently front-end tools and libraries like React. While at university I also studied fields such 
-                                    as security, artificial intelligence, and machine learning, though I still don't consider myself a master of them by any means. 
+                                    down my interests, so the most granular detail I'll say here is that I'm interested in developing full stack user applications. I have experience working with
+                                    data structures & algorithms, REST API's, databases, and frontend web design. I also studied fields such 
+                                    as data science, artificial intelligence, and machine learning while in school, though I still consider myself to be somewhat of a novice at them.
                                     <br></br>
                                     <br></br>
-                                    On the more personal side of things I'm in to video games, music, playing guitar, and watching TV/movies. 
-                                    With hobbies this general, there's no shortage of potentially overlapping interests we could have! I've included this photo of me in the Shire just 
-                                    in case there's a Tolkien fan reading.
+                                    My personal hobbies include video games, music, playing guitar, and watching TV/movies. 
+                                    With hobbies this general, there's no shortage of potentially overlapping interests we could have! I've included this photo of me in the Shire to gain favor with any 
+                                    potential Tolkien fan reading this.
                                 </p>
                             </Card.Text>
                         </Col>
